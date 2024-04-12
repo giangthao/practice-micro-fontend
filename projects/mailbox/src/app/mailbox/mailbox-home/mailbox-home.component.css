@@ -1,0 +1,6 @@
+:host {
+   width: 100%;
+   display: block;
+   min-height: 300px;
+   border: 5px dashed orange;
+}

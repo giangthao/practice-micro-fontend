@@ -23,7 +23,7 @@ module.exports = {
             type: 'module',
          },
          exposes: {
-            './MailboxModule': 'projects/mailbox/src/app/mailbox/mailbox.module.ts',
+            './MailboxModule': './projects/mailbox/src/app/mailbox/mailbox.module.ts',
          },
 
          /**

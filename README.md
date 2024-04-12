@@ -1,10 +1,22 @@
-# PracticeMicroFontend
+# Practice Micro Fontend
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.3.
 
-## Development server
+## Run Application Shell
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Run `ng serve --project=shell` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+Navigate to `http://localhost:4200/mailbox` the application shell (host) navigate to Mailbox micro application!
+
+Navigate tp `http://localhost:4200/calendar` the application shell (host) navigate to Calendar micro application!
+
+## Run Remote Application Mailbox
+
+Run `ng serve --project=mailbox` for a dev server. Navigate to `http://localhost:4300/`. The application will automatically reload if you change any of the source files.
+
+## Run Remote Appliaction Calendar
+
+Run `ng serve --project=calendar` for a dev server. Navigate to `http://localhost:4400/`. The application will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 

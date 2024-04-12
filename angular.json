@@ -15,7 +15,7 @@
                "options": {
                   "outputPath": "dist/shell",
                   "index": "projects/shell/src/index.html",
-                  "browser": "projects/shell/src/main.ts",
+                  "main": "projects/shell/src/main.ts",
                   "polyfills": ["zone.js"],
                   "tsConfig": "projects/shell/tsconfig.app.json",
                   "assets": ["projects/shell/src/favicon.ico", "projects/shell/src/assets"],
@@ -101,7 +101,8 @@
                   },
                   "outputPath": "dist/mailbox",
                   "index": "projects/mailbox/src/index.html",
-                  "browser": "projects/mailbox/src/main.ts",
+                  "main": "projects/mailbox/src/main.ts",
+
                   "polyfills": ["zone.js"],
                   "tsConfig": "projects/mailbox/tsconfig.app.json",
                   "assets": ["projects/mailbox/src/favicon.ico", "projects/mailbox/src/assets"],
@@ -184,7 +185,8 @@
                   },
                   "outputPath": "dist/calendar",
                   "index": "projects/calendar/src/index.html",
-                  "browser": "projects/calendar/src/main.ts",
+                  "main": "projects/calendar/src/main.ts",
+
                   "polyfills": ["zone.js"],
                   "tsConfig": "projects/calendar/tsconfig.app.json",
                   "assets": ["projects/calendar/src/favicon.ico", "projects/calendar/src/assets"],
@@ -252,8 +254,8 @@
             }
          }
       }
-  },
-  "cli": {
-    "analytics": "a03b74ef-41c1-49d4-829f-4c52eda19a7d"
-  }
+   },
+   "cli": {
+      "analytics": "a03b74ef-41c1-49d4-829f-4c52eda19a7d"
+   }
 }

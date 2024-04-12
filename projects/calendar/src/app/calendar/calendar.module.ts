@@ -1,12 +1,17 @@
-import { Component } from '@angular/core';
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { RouterModule, Routes } from '@angular/router';
+import { CalendarHomeComponent } from './calendar-home/calendar-home.component';
 
-@Component({
-  selector: 'app-calendar',
-  standalone: true,
-  imports: [],
-  templateUrl: './calendar.component.html',
-  styleUrl: './calendar.component.css'
+export const CALENDAR_ROUTES: Routes = [
+   {
+      path: '',
+      component: CalendarHomeComponent,
+   },
+];
+
+@NgModule({
+   declarations: [CalendarHomeComponent],
+   imports: [CommonModule, RouterModule.forChild(CALENDAR_ROUTES)],
 })
-export class CalendarComponent {
-
-}
+export class CalendarModule {}

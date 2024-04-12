@@ -5,7 +5,7 @@ const { ModuleFederationPlugin } = require('webpack').container;
 module.exports = {
    output: {
       publicPath: 'auto', // setup the `publicHost` in `angular.json`
-      uniqueName: 'mailbox',
+      uniqueName: 'calendar',
    },
    optimization: {
       runtimeChunk: false,
@@ -23,7 +23,7 @@ module.exports = {
             type: 'module',
          },
          exposes: {
-            './CalendarModule': 'projects/calendar/src/app/calendar/calendar.module.ts',
+            './CalendarModule': './projects/calendar/src/app/calendar/calendar.module.ts',
          },
 
          /**
